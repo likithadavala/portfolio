@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="topbar">
+      <div class="brand">Likitha</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="hero-copy">
+          <span class="eyebrow">Hello, I’m a software developer</span>
+          <h1>Building elegant products with clean code.</h1>
+          <p>Designing modern web experiences, crafting responsive apps, and bringing ideas to life through immersive animations.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Let's Talk</a>
+            <a class="btn btn-secondary" href="#about">View Work</a>
+            <a class="btn btn-secondary" href="resume.html">Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="screenshot-card">
+            <div class="screenshot-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <canvas id="hero-canvas"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="info-section">
+        <div class="section-heading">
+          <span>About Me</span>
+          <h2>Crafting interactive apps with thoughtful design.</h2>
+        </div>
+        <div class="info-grid">
+          <article class="glass-card">
+            <h3>Developer Mindset</h3>
+            <p>Focused on scalable architecture, clean UI, and fast performance. I enjoy turning complex problems into elegant, user-friendly solutions.</p>
+          </article>
+          <article class="glass-card">
+            <h3>Experience</h3>
+            <p>Web apps, SaaS platforms, and design systems built with modern tools like React, TypeScript, Node.js, and CSS animations.</p>
+          </article>
+          <article class="glass-card">
+            <h3>3D Motion</h3>
+            <p>Animated interfaces and subtle 3D movement make experiences feel premium, delightful, and memorable on every device.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="section-heading">
+          <span>Contact</span>
+          <h2>Let's build something beautiful together.</h2>
+        </div>
+        <div class="contact-card glass-card">
+          <p>Reach out for freelance projects, collaborations, or just to say hi.</p>
+          <div class="contact-details">
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:hello@ariya.dev">hello@ariya.dev</a>
+            </div>
+            <div>
+              <strong>Location</strong>
+              <span>Remote / Worldwide</span>
+            </div>
+            <div>
+              <strong>GitHub</strong>
+              <a href="https://github.com/likitha" target="_blank" rel="noreferrer">github.com/likitha</a>
+            </div>
+          </div>
+          <a class="btn btn-primary" href="mailto:hello@ariya.dev">Email Me</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
